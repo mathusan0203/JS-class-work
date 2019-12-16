@@ -1,0 +1,32 @@
+
+<html>
+<body>
+
+<p>Click the button to get a time-based greeting:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+
+  var x=55;
+  var answer;
+  if (x>75) {
+    answer = "a";
+  } else if (x>60) {
+    answer= "b";
+  }
+  else if(x>40) {
+    answer= "c";
+  }
+  else if (x<40) {
+    answer= "f";
+  }
+  document.getElementById("demo").innerHTML=answer;
+}
+</script>
+
+</body>
+</html>
